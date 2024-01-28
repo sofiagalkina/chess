@@ -13,10 +13,12 @@ export class Knight extends Figure{
     }
     
     canMove(target: Cell): boolean{
-        if(target.figure?.color === this.color)
-        return false
-        if (target.figure?.name === FigureNames.KING)
-        return false
-    return true;
+        if(!super.canMove(target))
+        return false;
+
+        const dx = Math.abs(this.cell.x - target.x);
+        const dy = Math.abs(this.cell.y - target.y);
+
+        return (dx === 1 && dy == 2) || (dx === 2 && dy ===1)
     }
 }

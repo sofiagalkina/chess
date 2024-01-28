@@ -1,8 +1,8 @@
 import { Figure, FigureNames } from "./Figure";
 import { Colors } from "../Colors";
 import { Cell } from "../Cell";
-import blackLogo from '../../assets/whatever_black.png';
-import whiteLogo from '../../assets/whatever_white.png';
+import blackLogo from '../../assets/HKRook_black.png';
+import whiteLogo from '../../assets/HKRook_white.png';
 
 
 
@@ -16,10 +16,15 @@ export class Rook extends Figure{
     
 
     canMove(target: Cell): boolean{
-        if(target.figure?.color === this.color)
-        return false
-        if (target.figure?.name === FigureNames.KING)
-        return false
-    return true;
+       if(!super.canMove(target))
+        return false;
+
+        if(this.cell.isEmptyVertical(target))
+        return true;
+        
+        if(this.cell.isEmptyHorizontal(target))
+        return true;
+
+        return false;
     }
 }
