@@ -27,17 +27,17 @@
 }
 
 .cell img{
-    height: 48px;
-    width: 38px;
+    height: 50px;
+    width: 35px;
     position: relative;
 }
 
  .black{
-    background-color: rgba(247, 108, 229, 0.888);
+    background-color: rgba(249,208,214,255);
  }
 
  .white{
-    background-color: rgb(255, 182, 229);
+    background-color: rgba(250,240,248,255);
  }
 
  .selected {

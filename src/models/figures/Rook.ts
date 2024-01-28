@@ -1,8 +1,8 @@
 import { Figure, FigureNames } from "./Figure";
 import { Colors } from "../Colors";
 import { Cell } from "../Cell";
-import blackLogo from '../../assets/black-rook.png';
-import whiteLogo from '../../assets/white-rook.png';
+import blackLogo from '../../assets/whatever_black.png';
+import whiteLogo from '../../assets/whatever_white.png';
 
 
 

@@ -1,8 +1,8 @@
 import { Figure, FigureNames } from "./Figure";
 import { Colors } from "../Colors";
 import { Cell } from "../Cell";
-import blackLogo from '../../assets/black-queen.png';
-import whiteLogo from '../../assets/white-queen.png';
+import blackLogo from '../../assets/HKQueen_black.png';
+import whiteLogo from '../../assets/HKQueen_white.png';
 
 
 
@@ -18,6 +18,10 @@ export class Queen extends Figure{
         if(!super.canMove(target))
         return false;
         if(this.cell.isEmptyVertical(target))
+        return true
+        if(this.cell.isEmptyHorizontal(target))
+        return true
+        if(this.cell.isEmptyDiagonal(target))
         return true
      return false
     }
