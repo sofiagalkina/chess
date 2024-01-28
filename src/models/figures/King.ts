@@ -15,11 +15,22 @@ export class King extends Figure{
     }
 
     canMove(target: Cell): boolean{
-        if(target.figure?.color === this.color)
-        return false
-        if (target.figure?.name === FigureNames.KING)
-        return false
-    return true;
+        if(!super.canMove(target))
+        return false;
+
+        if (this.cell.isEmptyVertical(target) && Math.abs(target.y - this.cell.y) === 1) {
+            return true;
+          }
+          
+          if (this.cell.isEmptyHorizontal(target) && Math.abs(target.x - this.cell.x) === 1) {
+            return true;
+          }
+          
+          if (this.cell.isEmptyDiagonal(target) && Math.abs(target.y - this.cell.y) === 1 && Math.abs(target.x - this.cell.x) === 1) {
+            return true;
+          }
+
+        return false;
     }
     
 }
