@@ -1,0 +1,52 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.app{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board{
+    width: calc(64px * 8);
+    height: calc(64px * 8);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell img{
+    height: 48px;
+    width: 38px;
+    position: relative;
+}
+
+ .black{
+    background-color: rgba(247, 108, 229, 0.888);
+ }
+
+ .white{
+    background-color: rgb(255, 182, 229);
+ }
+
+ .selected {
+    background-color: rgb(169, 59, 59);
+ }
+
+ .available {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #22c022;
+ }
