@@ -3,7 +3,7 @@
 This is Hello Kitty chess React App in TypeScript.
 The purpose of this project was to learn TypeScript, practice using React and object oriented programming. A few extra things like customizing the board and importing my own figures were done to make the chess board look less boring and fun to use.
 
-[Software Demo Video](https://youtu.be/Ypv5wjwswR4)
+[Software Demo Video](https://youtu.be/rRHEh4Egdps)
 
 # Development Environment
 * Node v18.18.0
