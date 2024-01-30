@@ -1,0 +1,2 @@
+*{margin:0;padding:0}.app{align-items:center;height:100vh;justify-content:center;width:100vw}.app,.board{display:flex}.board{flex-wrap:wrap;height:512px;width:512px}.cell{align-items:center;display:flex;height:64px;justify-content:center;width:64px}.cell img{height:50px;position:relative;width:35px}.black{background-color:#f9d0d6}.white{background-color:#faf0f8}.selected{background-color:#a93b3b}.available{background-color:#22c022;border-radius:50%;height:12px;width:12px}
+/*# sourceMappingURL=main.ade7aaae.css.map*/
