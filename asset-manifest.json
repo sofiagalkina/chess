@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.ade7aaae.css",
-    "main.js": "/static/js/main.aaab47e7.js",
-    "static/media/HKBishop_white copy.png": "/static/media/HKBishop_white copy.24c4ac323beb1695b662.png",
-    "static/media/HKPawn_white.png": "/static/media/HKPawn_white.25152834c468cc8de3b9.png",
-    "static/media/HKBishop_black copy.png": "/static/media/HKBishop_black copy.0a1d0cdc699ac2236faf.png",
-    "static/media/HKKing_white.png": "/static/media/HKKing_white.028af18b1019a2efff34.png",
-    "static/media/HKRook_white.png": "/static/media/HKRook_white.3262eafdac9e91124ca1.png",
-    "static/media/HKQueen_white.png": "/static/media/HKQueen_white.4247e8582fbecfd050c8.png",
-    "static/media/HKRook_black.png": "/static/media/HKRook_black.808504234163f43d488e.png",
-    "static/media/HKPawn_black.png": "/static/media/HKPawn_black.6f46a41ed728b7fd7f94.png",
-    "static/media/HKKnight_white.png": "/static/media/HKKnight_white.9750769a47ee192a0a9d.png",
-    "static/media/HKKing_black.png": "/static/media/HKKing_black.c6e10edb935d0274d766.png",
-    "static/media/HKQueen_black.png": "/static/media/HKQueen_black.be70b287a406bd7c07f0.png",
-    "static/media/HKKnight_black.png": "/static/media/HKKnight_black.e1d1edbbd9ba8186200b.png",
-    "index.html": "/index.html",
-    "main.ade7aaae.css.map": "/static/css/main.ade7aaae.css.map",
-    "main.aaab47e7.js.map": "/static/js/main.aaab47e7.js.map"
+    "main.css": "/chess/static/css/main.ade7aaae.css",
+    "main.js": "/chess/static/js/main.c1ae7dae.js",
+    "static/media/HKBishop_white copy.png": "/chess/static/media/HKBishop_white copy.24c4ac323beb1695b662.png",
+    "static/media/HKPawn_white.png": "/chess/static/media/HKPawn_white.25152834c468cc8de3b9.png",
+    "static/media/HKBishop_black copy.png": "/chess/static/media/HKBishop_black copy.0a1d0cdc699ac2236faf.png",
+    "static/media/HKKing_white.png": "/chess/static/media/HKKing_white.028af18b1019a2efff34.png",
+    "static/media/HKRook_white.png": "/chess/static/media/HKRook_white.3262eafdac9e91124ca1.png",
+    "static/media/HKQueen_white.png": "/chess/static/media/HKQueen_white.4247e8582fbecfd050c8.png",
+    "static/media/HKRook_black.png": "/chess/static/media/HKRook_black.808504234163f43d488e.png",
+    "static/media/HKPawn_black.png": "/chess/static/media/HKPawn_black.6f46a41ed728b7fd7f94.png",
+    "static/media/HKKnight_white.png": "/chess/static/media/HKKnight_white.9750769a47ee192a0a9d.png",
+    "static/media/HKKing_black.png": "/chess/static/media/HKKing_black.c6e10edb935d0274d766.png",
+    "static/media/HKQueen_black.png": "/chess/static/media/HKQueen_black.be70b287a406bd7c07f0.png",
+    "static/media/HKKnight_black.png": "/chess/static/media/HKKnight_black.e1d1edbbd9ba8186200b.png",
+    "index.html": "/chess/index.html",
+    "main.ade7aaae.css.map": "/chess/static/css/main.ade7aaae.css.map",
+    "main.c1ae7dae.js.map": "/chess/static/js/main.c1ae7dae.js.map"
   },
   "entrypoints": [
     "static/css/main.ade7aaae.css",
-    "static/js/main.aaab47e7.js"
+    "static/js/main.c1ae7dae.js"
   ]
 }
